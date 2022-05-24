@@ -85,7 +85,6 @@ ul {
 
 li {
     margin-bottom: 20px;
-    /* line-height: 20px; */
 }
 
 .list-item {
@@ -94,12 +93,13 @@ li {
 
 .down-arrow::after {
     content: '\25BC';
+    font-size: 15px;
+    margin-right: 5px;
 }
 
 .check::after {
     content: '\2714';
     color: rgb(2, 196, 2);
-  
 }
 
 .check {
@@ -114,8 +114,8 @@ li {
 }
 
 .cross::after {
-    content: '\274C';
-    color:rgb(255, 3, 3) ;
+    content: '\2A2F';
+    color:rgb(255, 3, 3);
 }
 
 .cross {
