@@ -5,3 +5,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+}
+
+.header-logo{
+    padding: 20px;
+}
+
+#logo {
+    height: 60px;
+    vertical-align: middle;
+}
+
+#logo-name {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle; 
+ 
+}
