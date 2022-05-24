@@ -7,12 +7,16 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(195, 194, 194);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+ /* Header */
 
 header {
     background-color: white;
     height: 100px;
+    margin-bottom: 30px;
 }
 
 .header-logo{
@@ -26,8 +30,101 @@ header {
 
 #logo-name {
     font-size: 40px;
-    font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: hei;
     vertical-align: middle; 
- 
+}
+
+/* Main */
+
+.button-section, .list-section {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.button-section {
+    height: 50px;
+    padding: 12px 50px;
+    border-radius: 5px 5px 0 0;
+}
+
+.pulsante {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#task-button {
+    background-color: #46ADF1;
+    color:  #fff;
+    border: 2px solid #46ADF1;
+}
+
+#section-button {
+    background-color: white;
+    color: #CED3D7 ;
+    border: 2px solid #CED3D7;
+}
+
+.list-section {
+    border-radius: 0 0 5px 5px;
+    margin-top: 3px;
+    padding: 50px;
+}
+
+ul {
+    list-style: none;
+    color: rgb(104, 104, 104);
+    margin-bottom: 30px;
+}
+
+
+.list-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+li {
+    margin-bottom: 20px;
+    /* line-height: 20px; */
+}
+
+.list-item {
+    line-height: 20px;;
+}
+
+.down-arrow::after {
+    content: '\25BC';
+}
+
+.check::after {
+    content: '\2714';
+    color: rgb(2, 196, 2);
+  
+}
+
+.check {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(2, 196, 2);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.cross::after {
+    content: '\274C';
+    color:rgb(255, 3, 3) ;
+}
+
+.cross {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 3, 3);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
 }
