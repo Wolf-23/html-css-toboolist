@@ -1,4 +1,4 @@
-# **Esercizio Boolean - To do List**
+# **Esercizio Boolean - To Do List**
 
 * Nome: html-css-toboolist
 * Autore: Lupinu Riccardo
